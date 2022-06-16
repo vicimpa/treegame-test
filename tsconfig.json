@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "class": ["./class/"],
+      "com": ["./com/"],
+      "img": ["./img/"],
+      "lib": ["./lib/"]
+    }
+  }
+}
